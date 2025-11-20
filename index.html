@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CINEPLAY - Download Smarters</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 20px;
+        }
+
+        .container {
+            background: rgba(255, 255, 255, 0.95);
+            border-radius: 20px;
+            padding: 40px;
+            max-width: 500px;
+            width: 100%;
+            box-shadow: 0 20px 60px rgba(0, 0, 0, 0.3);
+            text-align: center;
+        }
+
+        .logo {
+            font-size: 2.5rem;
+            font-weight: bold;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            margin-bottom: 10px;
+        }
+
+        .subtitle {
+            color: #666;
+            font-size: 0.95rem;
+            margin-bottom: 30px;
+        }
+
+        .app-info {
+            background: #f8f9fa;
+            border-radius: 12px;
+            padding: 20px;
+            margin-bottom: 25px;
+        }
+
+        .app-name {
+            font-size: 1.3rem;
+            font-weight: 600;
+            color: #333;
+            margin-bottom: 8px;
+        }
+
+        .app-details {
+            color: #666;
+            font-size: 0.9rem;
+            line-height: 1.6;
+        }
+
+        .app-details span {
+            display: inline-block;
+            margin: 0 8px;
+        }
+
+        .download-btn {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            border: none;
+            padding: 15px 40px;
+            font-size: 1rem;
+            font-weight: 600;
+            border-radius: 50px;
+            cursor: pointer;
+            transition: transform 0.2s, box-shadow 0.2s;
+            text-decoration: none;
+            display: inline-block;
+            margin-bottom: 20px;
+        }
+
+        .download-btn:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 10px 25px rgba(102, 126, 234, 0.4);
+        }
+
+        .download-btn:active {
+            transform: translateY(0);
+        }
+
+        .instructions {
+            background: #fff3cd;
+            border-left: 4px solid #ffc107;
+            padding: 15px;
+            border-radius: 8px;
+            text-align: left;
+            font-size: 0.85rem;
+            color: #856404;
+            margin-top: 20px;
+        }
+
+        .instructions h3 {
+            font-size: 0.95rem;
+            margin-bottom: 8px;
+            color: #856404;
+        }
+
+        .instructions ol {
+            margin-left: 20px;
+            line-height: 1.6;
+        }
+
+        .footer {
+            margin-top: 25px;
+            color: #999;
+            font-size: 0.8rem;
+        }
+
+        .icon {
+            font-size: 3rem;
+            margin-bottom: 15px;
+        }
+
+        @media (max-width: 600px) {
+            .container {
+                padding: 30px 20px;
+            }
+            
+            .logo {
+                font-size: 2rem;
+            }
+            
+            .app-name {
+                font-size: 1.1rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="icon">📱</div>
+        <div class="logo">CINEPLAY</div>
+        <div class="subtitle">Sistema de Distribuição de Aplicativos</div>
+        
+        <div class="app-info">
+            <div class="app-name">IPTV Smarters Pro</div>
+            <div class="app-details">
+                <span>📦 Versão: Última</span>
+                <span>💾 Tamanho: 30 MB</span>
+            </div>
+        </div>
+
+        <a href="smarters.apk" class="download-btn" download>
+            ⬇️ Baixar Aplicativo
+        </a>
+
+        <div class="instructions">
+            <h3>📋 Instruções de Instalação:</h3>
+            <ol>
+                <li>Baixe o arquivo APK</li>
+                <li>Permita instalação de fontes desconhecidas</li>
+                <li>Abra o arquivo e instale</li>
+                <li>Configure suas credenciais de acesso</li>
+            </ol>
+        </div>
+
+        <div class="footer">
+            © 2025 CINEPLAY - Todos os direitos reservados
+        </div>
+    </div>
+</body>
+</html>
